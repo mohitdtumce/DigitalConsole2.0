@@ -5,8 +5,6 @@ import com.flipkart.digitalconsole20.exception.EmployeeNotFoundException;
 import com.flipkart.digitalconsole20.repository.EmployeeRepository;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 public class EmployeeController {
     private final EmployeeRepository employeeRepository;
@@ -16,7 +14,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/employees")
-    List<Employee> all() {
+    Iterable<Employee> all() {
         return employeeRepository.findAll();
     }
 

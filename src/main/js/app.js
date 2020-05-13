@@ -6,7 +6,7 @@ const client = require('./client');
 
 const follow = require('./follow'); // function to hop multiple links by "rel"
 
-const root = '/api';
+const root = '/';
 
 class App extends React.Component {
 

@@ -34102,7 +34102,7 @@ var client = __webpack_require__(/*! ./client */ "./src/main/js/client.js");
 var follow = __webpack_require__(/*! ./follow */ "./src/main/js/follow.js"); // function to hop multiple links by "rel"
 
 
-var root = '/api';
+var root = '/';
 
 var App = /*#__PURE__*/function (_React$Component) {
   _inherits(App, _React$Component);
@@ -34307,9 +34307,7 @@ var CreateDialog = /*#__PURE__*/function (_React$Component2) {
           className: "field"
         }));
       });
-      return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("a", {
-        href: "#createEmployee"
-      }, "Create"), /*#__PURE__*/React.createElement("div", {
+      return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
         id: "createEmployee",
         className: "modalDialog"
       }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("a", {
